@@ -2,9 +2,8 @@
   text-align: center;
   font-family: Arial, sans-serif;
 }
-
 .search-bar {
-margin: 20px;
+  margin: 20px;
   display: flex; 
   flex-wrap: wrap; 
   justify-content: space-between;
@@ -12,29 +11,18 @@ margin: 20px;
 .header{
   color: rosybrown;
   font-size: 22px;
-  
-  
 }
-
 .search input {
   padding: 10px;
   width: 250px;
-height: 35px;
-border-radius: 10px;
-
-
+  height: 35px;
+  border-radius: 10px;
 }
-
-
 .search button {
- 
- 
   border-radius: 10px;
   height: 35px;
   margin-left: 10px;
- 
 }
-
 .book-list {
   display: flex; 
   flex-wrap: wrap; 
@@ -45,43 +33,29 @@ border-radius: 10px;
 }
 .book-container{
   width: 25%;
-  /* margin: 1em; */
 }
 .book-card {
-  /* width: 250px;
-  height: auto;  
-  display: flex;
-  flex-direction: column; */
-
   background-color: #f9f9f9;
-
   border-radius: 8px;
   padding: 10px;  
 }
-
 .book-card img {
   width: 250px; 
   height: 250px;
-  /* border: 1px solid #ccc;
-  border-radius: 8px; */
   margin-bottom: 8px;
-  
 }
-
 .book-details {
   padding: 0;  
 }
-
 .book-details h3 {
   margin-top: 0;
 }
-
 .book-details p {
   margin: 5px 0;
 }
 .text{
  font-size: 22px;
- height: 10px;
+ margin-top:250px
 }
 
 

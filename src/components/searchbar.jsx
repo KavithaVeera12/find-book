@@ -10,13 +10,7 @@ const SearchBar = ({ onSearch }) => {
 
   return (
     <div className="search-bar">
-      
       <p className='header'>Book Finder</p>
-
-
-      {/* {!query && (
-      <p className='text'>To view the books list, please use the search feature</p>
-      )} */}
       <div className="search">
         <input
           type="text"
@@ -24,8 +18,6 @@ const SearchBar = ({ onSearch }) => {
           value={query}
           onChange={(e) => setQuery(e.target.value)}
         />
-        
-        
         {query && (
           <button className="btn btn-success" onClick={handleSearch}>
             Search
@@ -33,7 +25,6 @@ const SearchBar = ({ onSearch }) => {
         )}
         
       </div>
-      
     </div>
   );
 };

@@ -28,8 +28,6 @@ const App = () => {
 
   return (
     <div className="app    ">
-      {/* <h1 >Book Finder</h1> */}
-
       <SearchBar onSearch={fetchBooks} />
       {!viewText && (
       <div className='text'>To view the books list, please use the search feature</div>
